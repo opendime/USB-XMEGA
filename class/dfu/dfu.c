@@ -1,7 +1,7 @@
 #include "class/dfu/dfu.h"
 
-DFU_State dfu_state = DFU_STATE_dfuIDLE;
-DFU_Status dfu_status = DFU_STATUS_OK;
+DFU_State dfu_state;
+DFU_Status dfu_status;
 uint16_t dfu_poll_timeout;
 uint16_t dfu_block_offset;
 
